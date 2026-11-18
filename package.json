@@ -1,0 +1,14 @@
+{
+  "name": "sadiki-website",
+  "private": true,
+  "version": "2.0.0",
+  "description": "Website SA - DIKI Gerüst & Bau UG (haftungsbeschränkt)",
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./assets/css/style.css --minify",
+    "watch": "npx @tailwindcss/cli -i ./src/input.css -o ./assets/css/style.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
